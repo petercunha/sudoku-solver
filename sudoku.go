@@ -135,7 +135,7 @@ func isBoardFinished() bool  {
   return true
 }
 
-// Check if board is solved
+// Print the board 
 func printBoard() {
   for i := range board {
     for j := range board[i] {
